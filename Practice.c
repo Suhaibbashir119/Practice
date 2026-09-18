@@ -2,8 +2,13 @@
 #include<conio.h>
 
 void main(){
-    //printf("------------------Your Name---------------------------\n");
-    //printf("Hello World\n");
+    printf("------------------Your Name---------------------------\n");
+    char name[20];
+
+    printf("Enter your name: ");
+    scanf("%s", name);
+
+    printf("My name is %s.\n");
 
     //printf("------------------------Sum of Two Numbers----------------------------\n");
 
@@ -63,7 +68,7 @@ void main(){
     //int fact = 1;
 
     //for(int i = num;i > 0;i-- ){
-    //    fact *= i;
+    //    fact *= i;it
     //}
     //printf("%d is the factorial of %d",fact,num);
 
